@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+    <style>
+        h1 {
+            text-align: center;
+            text-decoration: dotted;
+        }
+
+        .container {
+
+            background-color: black;
+            margin: 0px 200px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        input {
+            width: 180px;
+            height: 30px;
+            border-radius: 5px;
+        }
+
+        * {
+            font-family: "Roboto", sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .rows {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            padding: 3px 0px;
+        }
+
+        .buttons {
+            width: 40px;
+            height: 40px;
+            background-color: rgb(155, 150, 150);
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        .buttons.last {
+            background-color: rgb(238, 144, 4);
+        }
+    </style>
+
+<body>
+    <h1>Tarannum's Calculator !</h1>
+    <div class="container">
+        <div class="rows"><input type="text" value=""></div>
+        <div class="rows">
+            <button class="buttons">AC</button>
+            <button class="buttons">X</button>
+            <button class="buttons">mc</button>
+            <button class="buttons last">/</button>
+        </div>
+        <div class="rows">
+            <button class="buttons">7</button>
+            <button class="buttons">8</button>
+            <button class="buttons">9</button>
+            <button class="buttons last">*</button>
+        </div>
+        <div class="rows">
+            <button class="buttons">4</button>
+            <button class="buttons">5</button>
+            <button class="buttons">6</button>
+            <button class="buttons last">-</button>
+        </div>
+        <div class="rows">
+            <button class="buttons">1</button>
+            <button class="buttons">2</button>
+            <button class="buttons">3</button>
+            <button class="buttons last">+</button>
+        </div>
+        <div class="rows">
+            <button class="buttons">%</button>
+            <button class="buttons">0</button>
+            <button class="buttons">.</button>
+            <button class="buttons last">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
